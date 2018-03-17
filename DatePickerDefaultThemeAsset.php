@@ -1,11 +1,16 @@
 <?php
 
-namespace jDate;
+namespace elephantsGroup\jDate;
 
 /**
- * @author Mohammad Mahdi Gholomian.
- * @copyright 2014 mm.gholamian@yahoo.com
+ *
+ * @name : eg-jdate
+ * @Version 1.0.0
+ * @Author : Jalal Jaberi
+ *
+ * based on Mohammad Mahdi Gholomian jDate
  */
+
 class DatePickerDefaultThemeAsset extends DatePickerAsset
 {
 	public $css = [

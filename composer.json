@@ -1,21 +1,23 @@
 {
-    "name": "mohammad-mahdy/yii2-jdate",
-    "description": "Jalali date & time.",
+    "name": "elephantsgroup/eg-jdate",
+    "description": "Yii2 Jalali date & time",
+    "keywords": ["yii", "yii2", "extension", "elephantsGroup", "Jalali Date"],
+    "homepage": "http://elephantsgroup.com",
     "type": "library",
-    "keywords": ["yii2", "yii", "yiiframeowrk", "persian date","extension","jDate","Jalali Data Time"],
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Mohammad Mahdi Gholamian",
-            "email": "mm.gholamian@yahoo.com"
+            "name": "Jalal Jaberi",
+            "email": "proodoo@gmail.com"
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "php": ">=7.0.0",
+        "yiisoft/yii2": ">=2.0.0"
     },
     "autoload": {
         "psr-4": {
-            "jDate\\": ""
+            "elephantsGroup\\jDate\\": ""
         }
     }
 }

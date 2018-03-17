@@ -1,13 +1,18 @@
 <?php
 
-namespace jDate;
+namespace elephantsGroup\jDate;
 
 use yii\base\InvalidParamException;
+
 /**
- * Jalali date & time.
- * @author Mohammad Mahdi Gholomian.
- * @copyright 2014 mm.gholamian@yahoo.com
+ *
+ * @name : eg-jdate
+ * @Version 1.0.0
+ * @Author : Jalal Jaberi
+ *
+ * based on Mohammad Mahdi Gholomian jDate
  */
+
 class DateTime
 {
 	function date($dateFormat, $timeStamp = false)

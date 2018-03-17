@@ -1,6 +1,6 @@
 Jalali Date
 ===========
-Jalali date & time is an extension for yii2.
+Yii2 Jalali date & time library based on mohammad-mahdy/yii2-jdate.
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist mohammad-mahdy/yii2-jdate "*"
+php composer.phar require --prefer-dist elephantsgroup/eg-jdate "*"
 ```
 
 or add
 
 ```
-"mohammad-mahdy/yii2-jdate": "*"
+"elephantsgroup/eg-jdate": "*"
 ```
 
 to the require section of your `composer.json` file.

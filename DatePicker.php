@@ -1,16 +1,21 @@
 <?php
 
-namespace jDate;
+namespace elephantsGroup\jDate;
 
 use yii\helpers\Json;
 use yii\helpers\Html;
 use yii\base\InvalidConfigException;
 use yii\widgets\InputWidget;
+
 /**
- * Jalali date & time.
- * @author Mohammad Mahdi Gholomian.
- * @copyright 2014 mm.gholamian@yahoo.com
+ *
+ * @name : eg-jdate
+ * @Version 1.0.0
+ * @Author : Jalal Jaberi
+ *
+ * based on Mohammad Mahdi Gholomian jDate
  */
+
 class DatePicker extends InputWidget
 {
 	/**
