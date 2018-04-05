@@ -29,7 +29,7 @@ Once the extension is installed, add it as a component  :
 
 ```php
 'jdate' => [
-	'class' => 'jDate\DateTime'
+	'class' => 'elephantsGroup\jDate\DateTime'
 ]
 ```
 
